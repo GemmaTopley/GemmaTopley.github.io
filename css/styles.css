@@ -14,6 +14,26 @@ body {
     background-color: #FFF0F5;
 }
 
+
+/* scroll bar */
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #FFF0F5; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #9EB9D4; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #C08081; 
+  }
+  
+
 /* header */
 
 header {
@@ -29,6 +49,17 @@ header {
 
     user-select: none;
 }
+
+/* footer */
+
+footer {
+    background-color: #C08081;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+}
+
 
 /* menu needs to be edited for smaller screens later*/
 
@@ -83,6 +114,8 @@ nav a:hover{
     border-radius: 5px;
     object-fit: cover;
 }
+
+
 
 /* TABLET STYLES */
 
