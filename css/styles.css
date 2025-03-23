@@ -27,6 +27,7 @@ header {
     position: relative;
     width: 65%;
 
+    user-select: none;
 }
 
 /* menu needs to be edited for smaller screens later*/
@@ -45,18 +46,44 @@ nav {
     float: right;
     top: 0px;
     margin-top: -80px;
+
+    user-select: none;
+
 }
 nav a{
     padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 nav a:hover{
     background-color: #B9D9EB;
 }
 
+.active:hover{
+    background-color: #9EB9D4;
+}
+
 .active {
     font-weight: bold;
 }
+
+/* headshot */
+
+#mainImg{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    min-width: 200px;
+    max-width: 422px;
+    float: right;
+
+    border-radius: 5px;
+    object-fit: cover;
+}
+
 /* TABLET STYLES */
 
 @media screen and (min-width: 500px) {
