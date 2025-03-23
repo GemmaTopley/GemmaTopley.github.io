@@ -57,6 +57,7 @@ footer {
     margin-top: 5px;
     border-radius: 5px;
     display: flex;
+    user-select: none;
     padding: 10px;
 }
 
