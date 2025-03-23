@@ -37,17 +37,17 @@ body {
 /* header */
 
 header {
-    text-align: left;
+    text-align: center;
     background: #C08081;
-    display: flex;
-    padding-left: 10px;
     border-radius: 5px;
-
     height: 80px;
-    position: relative;
-    width: 65%;
+    display: flex;
+    justify-content: center;
+}
 
-    user-select: none;
+header h1{
+    display: flex;
+    vertical-align: bottom;
 }
 
 /* footer */
@@ -62,7 +62,7 @@ footer {
 }
 
 
-/* menu needs to be edited for smaller screens later*/
+/* menu */
 
 nav {
     background-color: #9EB9D4;
@@ -71,18 +71,12 @@ nav {
     justify-content:space-evenly;
     padding: 5px;
     border-radius: 5px;
-    
-    
+    margin-top: 5px;
     height: 70px;
     position: relative;
-    width: 33%;
-    float: right;
     top: 0px;
-    margin-top: -80px;
-
-    user-select: none;
-
 }
+
 nav a{
     padding: 8px;
     border-radius: 5px;
@@ -113,8 +107,8 @@ nav a:hover{
     margin-left: auto;
     margin-right: auto;
     height: fit-content;
-    min-width: 200px;
-    max-width: 422px;
+    max-width: 100%;
+
     float: right;
 
     border-radius: 5px;
@@ -127,10 +121,43 @@ nav a:hover{
 
 @media screen and (min-width: 500px) {
 
+    #mainImg{
+        max-width: 50%;
+
+    }
+
 }
 
 /* DESKTOP STYLES */
 
 @media screen and (min-width: 1000px) {
+
+
+    /* header */
+
+    header {
+        width: 65%;
+        padding-left: 10px;
+        user-select: none;
+        text-align: left;
+        position: relative;
+        justify-content: left;
+
+    }
+
+    /* menu */
+
+    nav {
+        user-select: none;
+        float: right;
+        margin-top: -80px;
+        width: 33%;
+
+    }
+
+    #mainImg {
+        min-width: 200px;
+        max-width: 400px;
+    }
 
 }
