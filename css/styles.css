@@ -1,0 +1,70 @@
+/* MOBILE AND GLOBAL STYLES */
+
+/* applies to screens smaller than 500px (first breakpoint) */
+/* and above unless overwritten below */
+
+/* defaults */
+
+*{
+    color: #483c32;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #FFF0F5;
+}
+
+/* header */
+
+header {
+    text-align: left;
+    background: #C08081;
+    display: flex;
+    padding-left: 10px;
+    border-radius: 5px;
+
+    height: 80px;
+    position: relative;
+    width: 65%;
+
+}
+
+/* menu needs to be edited for smaller screens later*/
+
+nav {
+    background-color: #9EB9D4;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+    
+    
+    height: 70px;
+    position: relative;
+    width: 33%;
+    float: right;
+    top: 0px;
+    margin-top: -80px;
+}
+nav a{
+    padding: 8px;
+}
+
+nav a:hover{
+    background-color: #B9D9EB;
+}
+
+.active {
+    font-weight: bold;
+}
+/* TABLET STYLES */
+
+@media screen and (min-width: 500px) {
+
+}
+
+/* DESKTOP STYLES */
+
+@media screen and (min-width: 1000px) {
+
+}
