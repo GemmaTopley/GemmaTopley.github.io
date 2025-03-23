@@ -113,6 +113,27 @@ nav a:hover{
   background: #595758; 
 }
 
+/* back to main page button */
+#GTBtn{
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 99;
+  border-style: solid;
+  border-color: #FFC8FB;
+  outline: none;
+  background-color: #FFC8FB;
+  padding: 15px;
+  border-radius: 5px;
+  
+}
+
+#GTBtn:hover{
+  background-color: #FFE4F3;
+  border-color: #FFC8FB;
+  border-style: solid;
+}
+
 /* gallery */
 
 #galleryMain{
