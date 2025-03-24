@@ -104,10 +104,11 @@ nav a:hover{
 #mainImg{
     display: block;
     margin-top: 10px;
-    margin-left: auto;
+    margin-left: 5px;
     margin-right: auto;
+    margin-bottom: 5px;
     height: fit-content;
-    max-width: 100%;
+    max-width: 50%;
 
     float: right;
 
@@ -116,13 +117,19 @@ nav a:hover{
 }
 
 
+/* body */
+
+p {
+    text-align: justify;
+}
+
 
 /* TABLET STYLES */
 
 @media screen and (min-width: 500px) {
 
     #mainImg{
-        max-width: 50%;
+        max-width: 35%;
 
     }
 
@@ -157,7 +164,7 @@ nav a:hover{
 
     #mainImg {
         min-width: 200px;
-        max-width: 400px;
+        max-width: 350px;
     }
 
 }
