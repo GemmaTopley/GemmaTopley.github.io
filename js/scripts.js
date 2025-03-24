@@ -2,8 +2,8 @@
 // aside menu //
 
 menuToggler.addEventListener('click', ev => {
-    menu.classList.toggle('open');
-    menuToggler.textContent = menuToggler.textContent === "x" ? "y" : "x";
+    navigate.classList.toggle('open');
+    menuToggler.textContent = menuToggler.textContent === "☆" ? "★" : "☆";
 });
 
 
