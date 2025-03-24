@@ -119,7 +119,7 @@ footer {
 
 #navigate {
     position: fixed;
-    transform: translateX(100vw);
+    transform: translateX(200vw);
     transition: transform 0.4s;
 
     background-color: #9EB9D4;
@@ -184,18 +184,43 @@ p {
 /* Grades tabs */
 
 #gradeSection {
-    width: 75%;
-    background-color: #9EB9D4;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+}
+
+h2 {
+    background-color: #C08081;
+    border: 10px solid #C08081;
+    border-radius: 10px;
 }
 
 .grades {
     background-color: #B9D9EB;
     border: 10px solid #9EB9D4;
     width: 400px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+
 }
+
+#gradeSection h3 {
+    text-align: center;
+}
+
+#gradeSection p {
+    text-align: center;
+    font-size: 85%;
+    margin: 7px;
+}
+
+#scho {
+    font-weight: bold;
+}
+
+
 
 /*
 #grades {
