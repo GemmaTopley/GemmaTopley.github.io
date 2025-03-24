@@ -127,6 +127,20 @@ p {
 
 /* Grades tabs */
 
+#gradeSection {
+    background-color: #9EB9D4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.grades {
+    background-color: #B9D9EB;
+    border: 10px solid #9EB9D4;
+    width: 400px;
+}
+
+/*
 #grades {
     width: 350px;
 }
@@ -161,6 +175,8 @@ p {
     border-top-right-radius: 0%;
     height: 225px;  
 }
+
+*/
 
 
 /* TABLET STYLES */

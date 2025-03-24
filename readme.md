@@ -26,3 +26,5 @@ fyp - record a demo to put in
 hobby creative projects- 
 show sewing and crocheting projects
 
+
+add aside maybe for navigations eg. click projects scrolls to there - under my image
