@@ -8,6 +8,7 @@
 *{
     color: #483c32;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    user-select: none;
 }
 
 body {
@@ -127,15 +128,38 @@ p {
 /* Grades tabs */
 
 #grades {
-
+    width: 350px;
 }
 
 .tab {
     overflow: hidden;
+    background-color: #9EB9D4;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.tab button {
+    background-color: #9EB9D4;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 10px;
+    transition: 0.3s;
+    width: 100x;
+}
+
+.tab button:hover {
+    font-weight: bold;
 }
 
 .tabContent {
     display: grid;
+    border: 5px solid #9EB9D4;
+    border-radius: 5px;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    height: 225px;  
 }
 
 
@@ -160,7 +184,6 @@ p {
     header {
         width: 65%;
         padding-left: 10px;
-        user-select: none;
         text-align: left;
         position: relative;
         justify-content: left;
@@ -170,7 +193,6 @@ p {
     /* menu */
 
     nav {
-        user-select: none;
         float: right;
         margin-top: -80px;
         width: 33%;
