@@ -1,4 +1,12 @@
 
+// aside menu //
+
+menuToggler.addEventListener('click', ev => {
+    menu.classList.toggle('open');
+    menuToggler.textContent = menuToggler.textContent === "x" ? "y" : "x";
+});
+
+
 // tabs //
 
 function openTab(evt, tabName) {

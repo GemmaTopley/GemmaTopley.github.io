@@ -9,6 +9,7 @@
     color: #483c32;
     font-family: Georgia, 'Times New Roman', Times, serif;
     user-select: none;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -63,9 +64,9 @@ footer {
 }
 
 
-/* menu */
+/* top menu */
 
-nav {
+#menu {
     background-color: #9EB9D4;
     display: flex;
     flex-direction: row;
@@ -78,17 +79,17 @@ nav {
     top: 0px;
 }
 
-nav a{
+#menu a{
     padding: 8px;
     border-radius: 5px;
     text-decoration: none;
 }
 
-nav a img{
+#menu a img{
     height: 50px;
 }
 
-nav a:hover{
+#menu a:hover{
     background-color: #B9D9EB;
 }
 
@@ -98,6 +99,40 @@ nav a:hover{
 
 .active {
     font-weight: bold;
+}
+
+/* aside menu */
+
+#menuToggler {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-align: center;
+    padding: 5px;
+    height: 25px;
+    width: 25px;
+    border-radius: 25%;
+    z-index: 1;
+    background-color: #9EB9D4;
+    opacity: 75%;
+}
+
+#navigate {
+    background-color: #9EB9D4;
+    display: flex;
+    flex-direction:column;
+    width: 25%;
+    float: right;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    right: 0;
+
+}
+
+#navigate a {
+    text-decoration: none;
+
 }
 
 /* headshot */
@@ -128,6 +163,7 @@ p {
 /* Grades tabs */
 
 #gradeSection {
+    width: 75%;
     background-color: #9EB9D4;
     display: flex;
     flex-direction: row;
@@ -208,7 +244,7 @@ p {
 
     /* menu */
 
-    nav {
+    #menu {
         float: right;
         margin-top: -80px;
         width: 33%;
