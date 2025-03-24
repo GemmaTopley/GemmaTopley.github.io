@@ -131,7 +131,11 @@ p {
 }
 
 .tab {
-    
+    overflow: hidden;
+}
+
+.tabContent {
+    display: grid;
 }
 
 
