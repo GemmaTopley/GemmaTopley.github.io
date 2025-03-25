@@ -181,6 +181,14 @@ p {
     text-align: justify;
 }
 
+/* intro section */
+
+#about h2 {
+    background-color: #FFF0F5;
+    border-color: #FFF0F5;
+    border: 5px;
+}
+
 
 /* Grades tabs */
 
@@ -195,11 +203,12 @@ h2 {
     background-color: #C08081;
     border: 10px solid #C08081;
     border-radius: 10px;
+    display: flex;
 }
 
 .grades {
-    background-color: #B9D9EB;
-    border: 10px solid #9EB9D4;
+    background-color: #ACC9E0;
+    border: 10px solid #ACC9E0;
     width: 400px;
     margin-left: 5px;
     margin-right: 5px;
@@ -261,6 +270,40 @@ h2 {
 
 */
 
+/* Projects */
+
+#projectsSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+#projects {
+    border: 10px solid #ACC9E0;
+    background-color: #ACC9E0;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 300px;
+    text-decoration: none;
+}
+
+#projects:hover {
+    filter: drop-shadow(0 0 0.5em #C08081);
+    transform: scale(1.05);
+}
+
+#projects p {
+    text-align: center;
+}
+
+#language, #program {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #9EB9D4;
+}
 
 /* TABLET STYLES */
 
@@ -268,9 +311,19 @@ h2 {
 
     #mainImg{
         max-width: 35%;
+        
+    }
+    
 
+    /* projects */
+
+    #projects {
+        width: 50%;
     }
 
+    #projectsSection{
+        flex-direction: row;
+    }
 }
 
 /* DESKTOP STYLES */
@@ -302,5 +355,12 @@ h2 {
         min-width: 200px;
         max-width: 350px;
     }
+
+    /* projects */
+
+    #projects {
+        width: 50%;
+    }
+
 
 }
