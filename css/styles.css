@@ -126,7 +126,7 @@ footer {
     display: flex;
     flex-direction:column;
     width: 250px;
-    height: 100px;
+    height: fit-content;
     float: right;
     margin-left: 10px;
     margin-top: 10px;
@@ -135,6 +135,9 @@ footer {
     bottom: 45px;
     border: 10px solid #9EB9D4;
     border-radius: 10px;
+
+    z-index: 1;
+
 
 }
 
@@ -187,6 +190,7 @@ h2 {
     border: 10px solid #C08081;
     border-radius: 10px;
     display: flex;
+    height: 30px;
 }
 
 /* intro section */
@@ -237,10 +241,7 @@ h2 {
 
 #gradeSection {
     width: 33%;
-}
-
-#gradesTitle {
-    width: 33%;
+    float: left;
 }
 
 .tabContent{
@@ -313,8 +314,14 @@ h2 {
 
 
 
-/* Experioence */
+/* Experience */
 
+#experienceSection {
+    float: left;
+    width: 66%;
+    height: 500px;
+    margin-left: 10px;
+}
 
 /* Projects */
 
@@ -322,7 +329,7 @@ h2 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    
+    float: right;
 }
 
 #projects {
@@ -335,6 +342,7 @@ h2 {
     cursor: pointer;
     height: 300px;
     text-decoration: none;
+    transition: transform .2s;
 }
 
 #projects:hover {
