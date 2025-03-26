@@ -172,6 +172,7 @@ footer {
 
     border-radius: 5px;
     object-fit: cover;
+
 }
 
 
@@ -179,6 +180,13 @@ footer {
 
 p {
     text-align: justify;
+}
+
+h2 {
+    background-color: #C08081;
+    border: 10px solid #C08081;
+    border-radius: 10px;
+    display: flex;
 }
 
 /* intro section */
@@ -192,6 +200,7 @@ p {
 
 /* Grades tabs */
 
+/*
 #gradeSection {
     display: flex;
     flex-direction: row;
@@ -199,12 +208,6 @@ p {
 
 }
 
-h2 {
-    background-color: #C08081;
-    border: 10px solid #C08081;
-    border-radius: 10px;
-    display: flex;
-}
 
 .grades {
     background-color: #ACC9E0;
@@ -230,18 +233,27 @@ h2 {
     font-weight: bold;
 }
 
+*/
 
+#gradeSection {
+    width: 33%;
+}
 
-/*
-#grades {
-    width: 350px;
+#gradesTitle {
+    width: 33%;
+}
+
+.tabContent{
+    height: 500px;
 }
 
 .tab {
     overflow: hidden;
-    background-color: #9EB9D4;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #9EB9D4;
 }
 
 .tab button {
@@ -252,7 +264,6 @@ h2 {
     cursor: pointer;
     padding: 10px 10px;
     transition: 0.3s;
-    width: 100x;
 }
 
 .tab button:hover {
@@ -262,13 +273,48 @@ h2 {
 .tabContent {
     display: grid;
     border: 5px solid #9EB9D4;
+    background-color: #ACC9E0;
     border-radius: 5px;
     border-top-left-radius: 0%;
     border-top-right-radius: 0%;
-    height: 225px;  
+    height: 300px;  
 }
 
-*/
+#gradeSection p {
+    text-align: center;
+    font-size: 85%;
+    margin: 7px;
+    margin-top: 10px;
+}
+
+#scho {
+    font-weight: bold;
+}
+
+#certificate {
+    width: 145px;
+    display: block;
+    margin: auto;
+    transition: transform .2s; 
+    border: 3px solid #9EB9D4;
+    transform: translateY(-5px);
+}
+
+#certificate:hover {
+    transform: translateY(-44px) scale(1.4);
+    display: block;
+    margin: auto;
+}
+
+#largeImg {
+    z-index: 1;
+    width: 50%;
+}
+
+
+
+/* Experioence */
+
 
 /* Projects */
 
