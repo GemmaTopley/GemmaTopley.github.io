@@ -1,0 +1,30 @@
+/* MOBILE AND GLOBAL STYLES */
+
+/* applies to screens smaller than 500px (first breakpoint) */
+/* and above unless overwritten below */
+
+/* defaults */
+
+*{
+    color: #483c32;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FFF0F5;
+}
+
+/* TABLET STYLES */
+
+@media screen and (min-width: 500px) {
+
+}
+
+
+/* DESKTOP STYLES */
+
+@media screen and (min-width: 1000px) {
+
+}

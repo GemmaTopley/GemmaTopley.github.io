@@ -49,3 +49,11 @@ const defaultTab = document.getElementById("degreeBtn");
 if(defaultTab) {
     defaultTab.click();
 }
+
+// back to main page //
+
+let backToMainBtn = document.getElementById("GTBtn");
+
+function backToGT() {
+	window.location.href='../index.html'
+}
