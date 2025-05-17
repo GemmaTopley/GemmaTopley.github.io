@@ -10,10 +10,77 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     user-select: none;
     scroll-behavior: smooth;
+    text-align: center;
 }
 
 body {
     background-color: #FFF0F5;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9EB9D4;
+    border-radius: 5px;
+}
+
+header #GTBtn{
+    border-style: solid;
+    border-color: #9EB9D4;
+    outline: none;
+    background-color: #9EB9D4;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+main {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+p{
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#dotWebBtn {
+    border-style: solid;
+    border-color: #C08081;
+    outline: none;
+    background-color: #C08081;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#dotWebBtn:hover {
+    border-color: #E0B8BB;
+    background-color: #E0B8BB;
+}
+
+#preview {
+    border: 5px solid #C08081;
+    width: 100%;
+    height: fit-content;
+}
+
+#languages{
+    display: flex;
+    flex-direction: row;
+}
+
+.language {
+    background-color: #C08081;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
 }
 
 /* TABLET STYLES */
@@ -27,4 +94,12 @@ body {
 
 @media screen and (min-width: 1000px) {
 
+    #preview {
+        width: 50%;
+    }
+
+    main{
+        display: flex;
+        width: 100%;
+    }
 }
