@@ -24,6 +24,7 @@ header{
     align-items: center;
     background-color: #9EB9D4;
     border-radius: 5px;
+    width: 100%;
 }
 
 header #GTBtn{
@@ -35,6 +36,8 @@ header #GTBtn{
     padding: 10px;
     font-weight: bold;
     margin-left: 10px;
+    cursor: pointer;
+
 }
 
 main {
@@ -58,6 +61,8 @@ p{
     padding: 10px;
     font-weight: bold;
     margin-left: 10px;
+    cursor: pointer;
+
 }
 
 #dotWebBtn:hover {
@@ -83,6 +88,25 @@ p{
     margin: 5px;
 }
 
+/* scroll bar */
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #00000000; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #00000000; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00000000; 
+  }
+  
+
 /* TABLET STYLES */
 
 @media screen and (min-width: 500px) {
@@ -95,7 +119,8 @@ p{
 @media screen and (min-width: 1000px) {
 
     #preview {
-        width: 50%;
+        margin-top: 25px;
+        width: 40%;
     }
 
     main{
