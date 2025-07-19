@@ -15,6 +15,7 @@
 body {
     background-color: #E3DAC9;
     display: flex;
+    height: 100%;
 }
 
 
@@ -25,20 +26,39 @@ body {
     background-color: #ACC9E0;
     width: 30%;
     margin: auto;
+    height: 95vh;
+    position: sticky;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 #mainImg {
-    width: 94.5%;
+    display: block;
+    width: 90%;
     border-radius: 50%;
-    border: 10px solid #483c32;
-    justify-content: center;
+    border: 10px solid #ACC9E0;
+    margin: auto;
 }
 
+
+#social {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    
+}
+
+#social a img{
+    width: 25%;
+}
 
 /* main panel */
 
 #content {
     background-color: #FFFAFA;
+    margin-left: 10px;
 }
 
 /* TABLET STYLES */
