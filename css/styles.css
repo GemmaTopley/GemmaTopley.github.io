@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: #E3DAC9;
+    background-color: #ece6e4;
     display: flex;
 }
 
@@ -40,10 +40,10 @@ body {
 #aside {
     display: block;
     background-color: #ACC9E0;
-    width: 30%;
+    width: 20%;
     margin: auto;
     height: 95vh;
-    position: sticky;
+    position: fixed;
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
     border-bottom-left-radius: 10px;
@@ -98,8 +98,10 @@ body {
 
 #content {
     background-color: #FFFAFA;
-    margin-left: 10px;
     border-radius: 10px;
+    width: 77%;
+    position: absolute;
+    right: 15px;
 }
 
 /* TABLET STYLES */
