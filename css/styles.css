@@ -24,16 +24,14 @@ body {
   }
   
   ::-webkit-scrollbar-track {
-    background: #FFF0F5; 
   }
    
   ::-webkit-scrollbar-thumb {
-    background: #9EB9D4; 
+    background: #ACC9E0; 
+    border-radius: 5px;
   }
   
-  ::-webkit-scrollbar-thumb:hover {
-    background: #C08081; 
-  }
+  
 
 /* side panel */
 
@@ -113,9 +111,10 @@ body {
 #content {
     background-color: #FFFAFA;
     border-radius: 10px;
-    width: 77%;
+    width: 73%;
     position: absolute;
     right: 15px;
+    padding: 2%;
 }
 
 /* TABLET STYLES */
