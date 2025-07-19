@@ -89,6 +89,7 @@ body {
     right: 0;
     margin-inline: auto;
     width: fit-content;
+    user-select: all;
 }
 
 #menu {
@@ -103,6 +104,10 @@ body {
     text-decoration: none;
     text-align: center;
     padding-bottom: 10px;
+}
+
+#menu a:hover {
+    font-weight: bold;
 }
 
 
