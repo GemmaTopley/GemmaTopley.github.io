@@ -1,0 +1,57 @@
+/* MOBILE AND GLOBAL STYLES */
+
+/* applies to screens smaller than 500px (first breakpoint) */
+/* and above unless overwritten below */
+
+/* defaults */
+
+*{
+    color: #483c32;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #E3DAC9;
+    display: flex;
+}
+
+
+/* side panel */
+
+#aside {
+    display: block;
+    background-color: #ACC9E0;
+    width: 30%;
+    margin: auto;
+}
+
+#mainImg {
+    width: 94.5%;
+    border-radius: 50%;
+    border: 10px solid #483c32;
+    justify-content: center;
+}
+
+
+/* main panel */
+
+#content {
+    background-color: #FFFAFA;
+}
+
+/* TABLET STYLES */
+
+@media screen and (min-width: 500px) {
+
+
+}
+
+
+/* DESKTOP STYLES */
+
+@media screen and (min-width: 1000px) {
+
+
+}
