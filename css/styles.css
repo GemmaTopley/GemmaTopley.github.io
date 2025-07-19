@@ -15,9 +15,25 @@
 body {
     background-color: #E3DAC9;
     display: flex;
-    height: 100%;
 }
 
+/* scroll bar */
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #FFF0F5; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #9EB9D4; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #C08081; 
+  }
 
 /* side panel */
 
@@ -47,18 +63,43 @@ body {
     display: flex;
     width: 90%;
     flex-direction: row;
-    
+    justify-content: space-evenly;
+    position: relative;
 }
 
 #social a img{
-    width: 25%;
+    height: 35px;
 }
+
+#email {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    width: fit-content;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+}
+
+#menu a{
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 
 /* main panel */
 
 #content {
     background-color: #FFFAFA;
     margin-left: 10px;
+    border-radius: 10px;
 }
 
 /* TABLET STYLES */
