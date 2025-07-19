@@ -164,6 +164,18 @@ body {
     margin-right: 0px;
 }
 
+#GCSEGrades {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#GCSEGrades p {
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 5px;
+}
+
 /* TABLET STYLES */
 
 @media screen and (min-width: 500px) {
