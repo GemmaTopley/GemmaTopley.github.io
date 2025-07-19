@@ -122,6 +122,48 @@ body {
     padding: 2%;
 }
 
+
+/* Education */
+
+.schoolLine {
+    display: flex;
+    align-items: center;
+}
+
+.schoolLogo {
+    width: 50px;
+    height: 50px;
+
+}
+
+.schoolDate {
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.subjectLine {
+    display: flex;
+    align-items: top;
+}
+
+.subject {
+    font-weight: bold;
+
+}
+
+.grade {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.description {
+    flex-basis: 60%;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
 /* TABLET STYLES */
 
 @media screen and (min-width: 500px) {
