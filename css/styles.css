@@ -50,6 +50,11 @@ body {
     border-bottom-right-radius: 10px;
 }
 
+#aside h1 {
+    display: flex;
+    justify-content: center;
+}
+
 #mainImg {
     display: block;
     width: 90%;
@@ -61,14 +66,20 @@ body {
 
 #social {
     display: flex;
+    justify-content: center;
     width: 90%;
     flex-direction: row;
-    justify-content: space-evenly;
-    position: relative;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
 }
 
 #social a img{
     height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #email {
@@ -85,6 +96,9 @@ body {
 #menu {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
 }
 
 #menu a{
