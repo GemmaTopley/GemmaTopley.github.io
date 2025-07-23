@@ -185,6 +185,22 @@ h3{
     line-height: 5px;
 }
 
+
+/* jobs */
+
+.jobLine {
+    display: flex;
+}
+
+.jobDate {
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.jobDescription{
+    text-align: justify;
+}
+
 /* TABLET STYLES */
 
 @media screen and (min-width: 500px) {
