@@ -206,6 +206,10 @@ h3{
 .companyLine {
     display: flex;
     align-items: center;
+    background-color: #ece6e4;
+    border: 5px solid #ece6e4;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 .companyLogo {
